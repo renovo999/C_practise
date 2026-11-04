@@ -5,10 +5,10 @@ int main()
     int moisture[5] = {45, 32, 28, 50, 25};
     for(int i = 0; i < 5; i++) {
         if(moisture[i] < 30) {
-            printf("µÚ%d´Î²âÊÔ,Êª¶ÈÎª%d,È±Ë®\n", i+1, moisture[i]);
+            printf("ç¬¬%dæ¬¡æµ‹è¯•,æ¹¿åº¦ä¸º%d,ç¼ºæ°´\n", i+1, moisture[i]);
         }
         else {
-            printf("µÚ%d´Î²âÊÔ,Êª¶ÈÎª%d,Ë®·Ö³ä×ã\n", i+1, moisture[i]);
+            printf("ç¬¬%dæ¬¡æµ‹è¯•,æ¹¿åº¦ä¸º%d,æ°´åˆ†å……è¶³\n", i+1, moisture[i]);
         }
     }
     return 0;
